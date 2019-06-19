@@ -10,8 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var imageRoundCorners: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.imageRoundCorners.layer.cornerRadius=20
         // Do any additional setup after loading the view.
     }
 
